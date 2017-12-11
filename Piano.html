@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Piano </title>
+    <meta charset = "utf-8">
+    <link href="Piano.css" media = "screen" rel= "stylesheet" type = "text/css"/>
+    <script src = "https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+    <script src = Audio.js> </script>
+    </head>
+    <body>
+        <div class = "background"> <img src = "https://previews.123rf.com/images/hasenonkel/hasenonkel1110/hasenonkel111000183/11007628-dirty-music-background-with-piano-and-sepia-Stock-Photo.jpg"> </div>
+        <table>
+        <tr>
+            <td> <a class="link_button" href="MP7.html">Home</a></td> 
+            
+         <td> <a class="link_button" href="Piano.html">Play the Piano</a></td> 
+            
+          <td> <a class="link_button" href="Music Library.html">Music Library</a></td> 
+        </tr>
+        </table>
+        <h1> Piano </h1>
+        <p id = "instructions"> To play the piano, press the corresponding letter on your keyboard.</p>
+        <audio id = "pianoA">
+            <source src="Sounds/piano/a.mp3" type="audio/mpeg"></audio>
+        <audio id = "pianoB">
+            <source src = "Sounds/piano/b.mp3" type = "audio/mpeg"></audio>
+        <audio id = "pianoC">
+            <source src = "Sounds/piano/c.mp3" type = "audio/mpeg"> </audio>
+        <audio id = "pianoD">
+            <source src="Sounds/piano/d.mp3" type="audio/mpeg"></audio>
+        <audio id = "pianoE">
+            <source src = "Sounds/piano/e.mp3" type = "audio/mpeg"> </audio>
+        <audio id = "pianoF">
+            <source src = "Desktop/Sophomore/Fall17/CS125/Sounds/piano/f.mp3" type = "audio/mpeg"> </audio>
+        <audio id = "pianoG">
+            <source src = "Desktop/Sophomore/Fall17/CS125/Sounds/piano/g.mp3" type = "audio/mpeg"></audio>
+        <audio id = "pianoASharp">
+            <source src = "Desktop/Sophomore/Fall17/CS125/Sounds/piano/a_sharp.mp3" type = "audio/mpeg"> </audio>
+        <audio id = "pianoCSharp">
+            <source src = "Desktop/Sophomore/Fall17/CS125/Sounds/piano/c_sharp.mp3" type = "audio/mpeg">  </audio>
+        <audio id = "pianoDSharp">
+            <source src = "Desktop/Sophomore/Fall17/CS125/Sounds/piano/d_sharp.mp3" type = "audio/mpeg">  </audio>
+        <audio id = "pianoFSharp">
+            <source src = "Desktop/Sophomore/Fall17/CS125/Sounds/piano/f_sharp.mp3" type = "audio/mpeg"> </audio>
+        <audio id = "pianoGSharp">
+            <source src = "Desktop/Sophomore/Fall17/CS125/Sounds/piano/g_sharp.mp3" type = "audio/mpeg"></audio>
+        <div id="piano">
+            <div class="pianoKey" id="pC"> <a id="a1">S</a></div>
+            <div class="pianoKey pSharp" id="pCS"><a id="a2">E</a></div>
+            <div class="pianoKey" id="pD"><a id="a1">D</a></div>
+            <div class="pianoKey pSharp" id="pDS"><a id="a2">R</a></div>
+            <div class="pianoKey" id="pE"><a id="a1">F</a></div>
+            <div class="pianoKey" id="pF"><a id="a1">H</a></div>
+            <div class="pianoKey pSharp" id="pFS"><a id="a2">U</a></div>
+            <div class="pianoKey" id="pG"><a id="a1">J</a></div>
+            <div class="pianoKey pSharp" id="pGS"><a id="a2">I</a></div>
+            <div class="pianoKey" id="pA"><a id="a1">K</a></div>
+            <div class="pianoKey pSharp" id="pAS"><a id="a2">O</a></div>
+            <div class="pianoKey" id="pB"><a id="a1">L</a></div>
+        </div>
+    </body>
+</html>

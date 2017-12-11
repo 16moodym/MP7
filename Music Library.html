@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title> Explore Music </title> 
+<meta charset="utf-8">
+<link href="Music Library.css" media="screen" rel="stylesheet" type="text/css"/>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="audio.js"></script>
+</head>
+    <body>
+      <div class="background"> <img src="https://previews.123rf.com/images/hasenonkel/hasenonkel1110/hasenonkel111000183/11007628-dirty-music-background-with-piano-and-sepia-Stock-Photo.jpg"> </div>
+            <table class="buttons">
+            <tr>
+            <td>    <a class="link_button" href="MP7.html">Home</a></td>
+
+            <td>     <a class="link_button" href="Piano.html">Play the Piano</a></td>
+            <td>
+                <a class="link_button" href="Music Library.html">Music Library</a></td>
+                </tr>
+        </table> 
+        <h1>Music Library</h1>
+          <p id="instructions"> To listen to music, press the play button below each song title.</p>
+         <audio id="song1">
+            <source src="Sounds/11%20Someone%20Like%20You.m4a" type="audio/mpeg">
+        </audio>
+        <audio id="song2">
+            <source src="Sounds/01%20Classic.m4a" type="audio/mpeg">
+        </audio>
+        <audio id="song3">
+            <source src="Sounds/01%20Save%20Me,%20San%20Francisco.m4a" type="audio/mpeg">
+        </audio>
+        <audio id="song4">
+            <source src="Sounds/03%20Shut%20Up%20and%20Dance.m4a" type="audio/mpeg">
+        </audio>
+        <audio id="song5">
+            <source src="Sounds/04%20Homegrown.m4a" type="audio/mpeg">
+        </audio>
+        <audio id="song6">
+            <source src="Sounds/01%20Girl%20On%20Fire.m4a" type="audio/mpeg">
+        </audio>
+        <audio id="song7">
+            <source src="Sounds/01%20Fade%20Into%20Darkness%20(Vocal%20Radio%20Mix).m4a" type="audio/mpeg">               
+        </audio>
+        <audio id="song8">
+            <source src="Sounds/01%20Believer.m4a" type="audio/mpeg"a>
+        </audio>
+<div id="playCustomSong">
+  <table class="songs">
+        <tr>
+            <td><a><img src="http://static.idolator.com/uploads/2010/11/Adele.jpg" alt="The image cannot be                 displayed" style="width:128px;height:128px;"></a></td>
+            <td><a><img src="https://upload.wikimedia.org/wikipedia/en/e/e8/MKTO_album.jpg" alt="The image                   cannot be displayed" style="width:128px;height:128px;"></a></td>
+            <td><a><img src="https://upload.wikimedia.org/wikipedia/en/a/ad/Save_Me_San_Francisco_cover_art.jpg" alt="The image cannot be displayed" style="width:128px;height:128px;"></a></td>
+            <td><a><img src="https://ukutabs.com/uploads/2015/03/Talking-Is-Hard.jpg" alt="The image cannot be              displayed"style="width:128px;height:128px;"></a></td>
+        </tr>   
+        <tr>
+            <td><a><cite>Someone Like You</cite> by Adele.</a><br /> <div class="control" song-id="song1"></div><progress style="display:none;" id="song1-progress" value="0" max="1"></progress></td>
+            <td><a><cite>Classic</cite> by MKTO.</a><br /> <div class="control" song-id="song2"></div><progress style="display:none;" id="song2-progress" value="0" max="1"></progress></td>
+            <td><a><cite>Save Me, San Francisco</cite> by Train.</a><br /> <div class="control" song-id="song3"></div><progress style="display:none;" id="song3-progress" value="0" max="1"></progress></td>
+            <td><a><cite>Shut Up and Dance</cite> by Walk the Moon.</a><br /> <div class="control" song-id="song4"></div><progress style="display:none;" id="song4-progress" value="0" max="1"></progress></td> 
+        </tr>
+        <tr>
+            <td><a> <img src="http://ecx.images-amazon.com/images/I/91Fk6dbeCSL._SL1500_.jpg" alt="The image cannot be displayed ):"style="width:128px;height:128px;"></a></td>
+
+            <td><a> <img src="https://upload.wikimedia.org/wikipedia/en/5/57/AK_Girl_on_Fire.jpg" alt="The image cannot be displayed ):"style="width:128px;height:128px;"></a></td>
+            <td><a> <img src="http://assets.rollingstone.com/assets/2015/media/188049/_original/1425572515/1035x1035-zbbalbumcover.jpg" alt="The image cannot be displayed"style="width:128px;height:128px;"></a></td>
+            <td><a> <img src="https://upload.wikimedia.org/wikipedia/en/0/00/Avicii_-_Fade_Into_Darkness_single_cover.jpg" alt="The image cannot be displayed ):"style="width:128px;height:128px;"></a></td>
+           
+        </tr>
+        <tr>
+            <td><a><cite>Believer</cite> by American Author.</a><br /> <div class="control" song-id="song8"></div><progress style="display:none;" id="song8-progress" value="0" max="1"></progress></td>
+            <td><a><cite>Girl on Fire</cite> by Alicia Keys.</a><br /> <div class="control" song-id="song6"></div><progress style="display:none;" id="song6-progress" value="0" max="1"></progress></td>
+            <td><a><cite>Homegrown</cite> by Zac Brown Band.</a><br />  <div class="control" song-id="song5"></div><progress style="display:none;" id="song5-progress" value="0" max="1"></progress></td>
+            <td><a><cite>Fade Into Darkness</cite> by Avicii.</a><br /><div class="control" song-id="song7"></div><progress style="display:none;" id="song7-progress" value="0" max="1"></progress></td>
+        </tr> 
+</table>    </div>
+    </body>
+</html>
